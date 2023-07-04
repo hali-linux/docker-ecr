@@ -43,7 +43,7 @@ jobs:
     - name: repository checkout
       uses: actions/checkout@v2
       with:
-        repository: hali-linux/gitops-argocd
+        repository: hali-linux/argocd-kube
         token: ${{ secrets.MY_GITHUB_TOKEN }}
         path: gitops-argocd
 
